@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box-shadow;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ddd;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-search {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#course-selection {
+  width: 20%;
+  height: 80%;
+  border-radius: 0;
+}
+
+.all-course-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search-bar {
+  width: 80%;
+  height: 75%;
+  font-size: 1.5em;
+  border-radius: 0;
+  outline: none;
+}
+
+.all-courses {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.all-courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: #eee;
+  padding: 20px 50px;
+}
+
+.all-course-items {
+  width: 300px;
+  height: 200px;
+  background-color: #9d9;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(25, 90%, 25%);
+}
+
+.footer-items {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-links {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+}
+
+.footer-logo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.login-form-container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.login-form-container fieldset{
+	width: 300px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #ffffffd0;
+}
+
+.login-form-container fieldset input{
+	padding: 10px;
+	margin: 10px;
+	background: #ddd;
+	border: 1px solid #000;
+}
+
+.login-form-container fieldset button{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 0;
+	border: 1px solid #000;
+	background: lightpink;
+}
+
+.login-variants{
+	font-size: 0.75em;
+	margin: 15px;
+}
