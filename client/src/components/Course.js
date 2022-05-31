@@ -1,4 +1,4 @@
-export default function Course(){
+export default function Course(props){
   return(
     <div class="all-course-items" id="course">
       <img src="#" id="course-img" alt="course-logo"/>
