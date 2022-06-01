@@ -1,3 +1,6 @@
+import App from "/src/App";
+import Login from "./Login";
+
 export default function Nav() {
   return (
     <nav>
@@ -7,18 +10,22 @@ export default function Nav() {
       <div class="nav-search">
         <select name="Categories" id="course-selection">
           <option>All</option>
-          <option>Category 1</option>
-          <option>Category 2</option>
-          <option>Category 3</option>
-          <option>Category 4</option>
+          <option>Course 1</option>
+          <option>Course 2</option>
+          <option>Course 3</option>
+          <option>Course 4</option>
         </select>
         <input type="text" name="search" id="search-bar" />
       </div>
       <div>
-        <a href="#">instructor mode</a>
+        <a href={<App />} id="nav-item">
+          instructor mode
+        </a>
       </div>
       <div>
-        <a href="#">Account/login</a>
+        <a href={<Login />} id="nav-item">
+          Account/login
+        </a>
       </div>
     </nav>
   );

@@ -35,11 +35,21 @@ nav {
   border-radius: 0;
 }
 
-.all-course-items{
+.all-course-items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+#course-img {
+  width: 100%;
+  height: 50%;
+  background: #875778;
+}
+
+.all-course-items > :not(#course-img) {
+  margin: 2px 10px;
 }
 
 #search-bar {
@@ -71,11 +81,13 @@ nav {
 }
 
 .all-course-items {
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   background-color: #9d9;
   margin: 20px 10px;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 footer {
@@ -84,7 +96,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(25, 90%, 25%);
+  flex-direction: column;
+  background-color: hsl(45, 75%, 50%);
 }
 
 .footer-items {
@@ -93,6 +106,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-links {
@@ -111,42 +125,47 @@ footer {
   justify-content: space-between;
 }
 
-
-.login-form-container{
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.login-form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.login-form-container fieldset{
-	width: 300px;
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: #ffffffd0;
+.login-form-container fieldset {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffffd0;
 }
 
-.login-form-container fieldset input{
-	padding: 10px;
-	margin: 10px;
-	background: #ddd;
-	border: 1px solid #000;
+.login-form-container fieldset input {
+  padding: 10px;
+  margin: 10px;
+  background: #ddd;
+  border: 1px solid #000;
 }
 
-.login-form-container fieldset button{
-	padding: 10px;
-	margin: 10px;
-	border-radius: 0;
-	border: 1px solid #000;
-	background: lightpink;
+.login-form-container fieldset button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0;
+  border: 1px solid #000;
+  background: lightpink;
 }
 
-.login-variants{
-	font-size: 0.75em;
-	margin: 15px;
+.login-variants {
+  font-size: 0.75em;
+  margin: 15px;
+}
+
+#nav-item {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
 }
