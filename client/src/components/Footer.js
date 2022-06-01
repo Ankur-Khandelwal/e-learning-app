@@ -1,4 +1,3 @@
-
 export default function Footer() {
   return (
     <footer>
@@ -13,12 +12,7 @@ export default function Footer() {
           Contact us
         </a>
       </div>
-      <div class="footer-logo">
-        <div>
-          <img src="#" alt="footer logo" />
-        </div>
-        <div>copyright &copy 2022-23 Team cuvette</div>
-      </div>
+      copyright &copy 2022-23 Team cuvette
     </footer>
   );
 }
